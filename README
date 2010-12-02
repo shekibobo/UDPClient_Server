@@ -1,0 +1,5 @@
+Author: Joshua Kovach
+
+A UDP Server/Client pair featuring reliable data transfer.
+
+The Client will request a file from the /home/user/server directory.  When downloading, the user can specify a packet success rate.  If a packet is rejected, the client doesn't send an acknowledgement, and the server will resend after a given timeout.  Files are downloaded to the /home/user/client directory.
